@@ -1,0 +1,102 @@
+.card{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 180px;
+
+    background: url('/rsschool-cv/img/strelitzia.png') ,url('/rsschool-cv/img/palm.png');
+    background-position: right bottom, left bottom;
+    background-repeat: no-repeat;
+}
+
+.card__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 80px;
+}
+
+.card__item{
+    position: relative;
+
+    width: 366px;
+    height: 426px;
+
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+    overflow: hidden;
+
+    display: inline-block;
+    border: 1px solid transparent;
+    background: linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%);
+    /* border-image-source: linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%);
+    border-image-slice: 1; */
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.card__description{
+    position: relative;
+    z-index: 10;
+
+    height: inherit;
+
+    padding-top: 8px;
+
+    background-color: white;
+}
+
+.card__item:nth-child(3){margin-right: 0;}
+
+.card__item:nth-child(6){margin-right: 0;}
+
+.card__photo{
+    position: relative;
+    z-index: 1;
+
+    width: 100%;
+    height: 366px;
+}
+
+.card__photo:hover {
+    transform: scale(1.1);
+
+    transition: .3s;
+}
+
+.card__photo > img{
+    width: inherit;
+    height: inherit;
+}
+
+.card__title{
+    margin-left: 16px;
+
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;  
+}
+
+.card__geolocation{
+    margin-left: 16px;
+
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+}
+
+.card__food{
+    position: absolute;
+    z-index: 11;
+
+    top: 10px;
+    right: 12px;
+}
+
+.card__button{
+    margin-left: 37%;
+
+    margin-bottom: 100px;
+}

@@ -1,0 +1,49 @@
+.info{
+    padding-top: 140px;
+    height: 600px;
+
+    background: url('/rsschool-cv/img/flower.png');
+    background-repeat: no-repeat;
+    background-position:  right 12px;
+}
+
+.info__wrapper{
+    display: flex;
+
+    width: 1161px;
+    height: 403px;
+}
+
+.info__photo{
+    width: 609px;
+    height: 403px;
+}
+
+.info__photo > img{
+    width: inherit;
+    height: inherit;
+}
+
+.info__text{
+    padding-left: 67px;
+
+    font-style: normal;
+    color: #333B41;
+}
+
+.info__titile{
+    margin-bottom: 20px;
+
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.info__discription{line-height: 130%;}
+
+p:nth-child(2){margin-bottom: 54px;}
+
+.info__sub-title{
+    margin-bottom: 34px;
+
+    font-size: 24px;
+}

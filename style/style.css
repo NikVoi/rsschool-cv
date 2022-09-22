@@ -48,8 +48,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*MAIN*/
 
 .conteiner{
+    position: relative;
+    
     width: 1160px;
     margin: 0 auto;
+}
+
+.conteiner--card{
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    width: 1158px;
 }
 
 /*HEADER*/
@@ -128,3 +138,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*BUTTONS*/
 
+
+/*INFO*/
+
+
+/*CARD*/
