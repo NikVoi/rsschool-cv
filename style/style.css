@@ -1,4 +1,6 @@
-/**/
+/* 
+
+*/
 
 
 /*Resets*/
@@ -18,11 +20,13 @@ a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 
 html,body{
+    font-family: 'Roboto', sans-serif;
+
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
 	line-height: 1;
-	font-size: 14px;
+	font-size: 16px;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -41,8 +45,86 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 
-/*main*/
+/*MAIN*/
 
-
+.conteiner{
+    width: 1160px;
+    margin: 0 auto;
+}
 
 /*HEADER*/
+
+
+/*LINKS*/
+
+.link{
+    color: white;
+}
+
+.link:hover{
+    transition: .3s;
+    color: #F9804B;
+}
+
+.conteiner > a{
+    color: white;
+}
+
+/*sectionFT*/
+
+.sectionFT{
+    width: 100%;
+    height: 700px;
+
+    background: url('/rsschool-cv/img/Logo-Panda.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sectionFT > .conteiner{
+    position: relative;
+}
+
+.sectionFT__circle{
+    position: absolute;
+    left: calc(50% - 465px/2 + 239.5px);
+    top: 12px;
+
+    width: 465px;
+    height: 465px;
+
+    padding-top: 12px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.sectionFT__text{
+    position: absolute;
+    left: calc(50% - 500.31px/2 + 330.15px);
+    top: 86px;
+
+    width: 500px;
+
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+}
+
+.sectionFT__text > span{
+    color: #FFEE2E;
+}
+
+.sectionFT > .conteiner > button{
+    position: absolute;
+    left: calc(50% - 298px/2 + 332px);
+    top: 546px;
+}
+
+/*BUTTONS*/
+
