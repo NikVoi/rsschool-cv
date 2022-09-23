@@ -16,6 +16,11 @@
     background: #E47209;
 }
 
+.button--br0{
+    margin-left: 30px;
+    border-radius: 0;
+}
+
 .card__button{
     width: 298px;
     height: 54px;
@@ -32,26 +37,44 @@
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 }
 
-.button__slide:first-child{
-    transform: rotate(180deg);
-}
+.button__slide:first-child{transform: rotate(180deg);}
 
 .button__slide:hover{
     background: #E47209;
 
-    animation: bg .3s;
+    animation: .3s;
 }
 
-@keyframes bg {
-    0%{
-        background-position: 0 50%;
-    }
+.button__form{
+    width: 129px;
+    height: 42px;
 
-    50%{
-        background-position: 100% 50%;
-    }
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
 
-    1000%{
-        background-position: 0% 50%;
-    }
+    background: #F1F3F2;
+
+    border: 1px solid #333B41;
+    border-radius: 5px;
 }
+
+.button__footer{
+    width: 298px;
+    height: 54px;
+
+    margin-bottom: 44px;
+
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    line-height: 140%;
+    text-align: center;
+
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+}
+
+.button__footer:hover{background: #E47209;}

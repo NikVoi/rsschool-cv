@@ -51,6 +51,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     position: relative;
     
     width: 1160px;
+
     margin: 0 auto;
 }
 
@@ -76,6 +77,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     color: #F9804B;
 }
 
+.link--under{
+    color: #333B41;
+    border-bottom: 1px solid #F9804B;    
+}
+    
 .conteiner > a{
     color: white;
 }
@@ -143,3 +149,125 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 /*CARD*/
+
+
+/*PINK*/
+
+
+/*FOOTER*/
+
+.footer{
+    height: 443px;
+
+    padding-top: 41px;
+
+    background: #111115;
+}
+
+.footer__wrapperTop > a{
+    color: white;
+}
+
+.footer__wrapperTop{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 36px;
+}
+
+.footer__wrapperBottom{
+    display: flex;
+}
+
+.footer__wrapperBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer__link{
+    width: 120px;
+}
+
+.footer__link > a{
+    position: relative;
+    margin-top: 5px;
+    
+    color: white;
+}
+
+.footer__link > a > span{
+    position: absolute;
+    left: 38px;
+    top: 5px;
+}
+
+.footer__link > a:active{color: #4B9200;}
+
+a > .footer__social:active{
+    color: #4B9200;
+    background: #4B9200;
+}
+
+.footer__social{
+    width: 26px;
+    height: 26px;
+
+    text-align: center;
+    padding-top: 5px;
+
+    margin-bottom: 10px;
+
+    border-radius: 50%;
+
+    background: rgba(196, 196, 196, 0.5);
+}
+
+.footer__link > .footer__social:last-child{
+    padding-top: 2px;
+}
+
+.footer__social > span{
+    margin-left: 12px;
+}
+
+.footer__nav{display: flex;}
+
+.footer__info{
+    font-weight: 100;
+    color: white;
+    line-height: 130%;
+
+    height: 52px;
+}
+
+.footer__info > p:first-child{
+    margin-bottom: 10px;
+}
+/*FORM*/
+
+form > p{
+    margin-bottom: 14px;
+
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+form > input{
+    height: 42px;
+
+    margin-right: 10px;
+    padding: 10px 7px 10px 10px;
+    
+    color: #BDBDBD;
+
+    border: 0.7px solid transparent;
+    background: linear-gradient(#111115, #111115) padding-box, 
+    linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%) border-box;
+    border-image-source: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+form > button:active{
+    color: #4B9200;
+    border: 1px solid #4B9200;
+}
